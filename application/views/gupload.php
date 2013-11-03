@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>Gamedev '11 - Game Upload</title>
+	</head>	
+	<body>
+		<h1>Upload Your Game</h1>
+		<p></p1>
+		<?php echo form_open_multipart('profile/do_gupload/'.$teamID);?>
+			<input type="file" name="userfile" size="20" />
+			<br /><br />
+			<input type="submit" value="upload" />
+		</form>
+	</body>
+</html>
